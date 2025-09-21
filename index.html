@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Finn | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="#top">Finn</a>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Portfolio</p>
+            <h1 id="hero-title">Hi, I am Finn (Yifei Li).</h1>
+            <p class="lead">
+              Cornell Tech M.Eng. candidate and Vanderbilt CS + Math graduate
+              building AI-driven products, research tooling, and human-centered
+              software.
+            </p>
+            <p class="lead">
+              I enjoy pairing ML, full-stack engineering, and thoughtful design
+              to solve complex problems—from autonomous systems to education and
+              healthcare analytics.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#projects">Explore work</a>
+              <a class="link" href="https://github.com/Finn1226" target="_blank" rel="noreferrer"
+                >GitHub</a
+              >
+              <a
+                class="link"
+                href="https://www.linkedin.com/in/yifei-li-51975121b"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn</a
+              >
+              <a class="link" href="#contact">Get in touch</a>
+            </div>
+          </div>
+          <figure class="hero-photo">
+            <img src="images/Headshot.jpeg" alt="Portrait of Finn" />
+          </figure>
+        </div>
+      </section>
+
+      <section id="about" class="section" aria-labelledby="about-title">
+        <div class="container">
+          <h2 id="about-title">About</h2>
+          <p>
+            I am a researcher-engineer focused on trustworthy AI systems and
+            user-centered product development. At Cornell Tech I study Data
+            Science and Decision Analytics, building on a B.S. in Computer
+            Science and Mathematics (Summa Cum Laude) from Vanderbilt.
+          </p>
+          <p>
+            From accelerating R&D workflows at the Vanderbilt Institute for
+            Software Integrated Systems to launching consumer-facing apps, I
+            bring together ML, backend, and interface design to deliver
+            measurable impact.
+          </p>
+          <p>
+            I am currently seeking opportunities to keep pushing the frontier of
+            intelligent tooling, autonomous systems, and delightful user
+            experiences. Let's collaborate.
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="experience"
+        class="section section-alt"
+        aria-labelledby="experience-title"
+      >
+        <div class="container">
+          <h2 id="experience-title">Experience</h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <header>
+                <div>
+                  <h3>
+                    Research &amp; Development Intern · Institute for Software Integrated Systems
+                    (VU ISIS)
+                  </h3>
+                  <p class="meta">Nashville, TN · May 2024 – Aug 2024</p>
+                </div>
+              </header>
+              <ul class="timeline-list">
+                <li>
+                  Built and extended FORMULA, a C# platform for defining domain-specific languages used by
+                  researchers.
+                </li>
+                <li>
+                  Expanded the Python interface adopted by 20+ research users to automate modeling workflows.
+                </li>
+                <li>
+                  Integrated LLM-based tooling that detects and repairs 80% of common code bugs, cutting manual
+                  debugging.
+                </li>
+                <li>
+                  Simulated drone missions and delivered validated mission-planning solutions adopted in lab tests.
+                </li>
+              </ul>
+            </article>
+
+            <article class="timeline-item">
+              <header>
+                <div>
+                  <h3>Research &amp; Development Intern · ShineOn Technology</h3>
+                  <p class="meta">Beijing, China · Jun 2023 – Aug 2023</p>
+                </div>
+              </header>
+              <ul class="timeline-list">
+                <li>
+                  Shipped an LLM-powered support assistant through API integration, reducing response time by 30%.
+                </li>
+                <li>
+                  Trained an emotion recognition model to gauge classroom engagement in real time.
+                </li>
+                <li>
+                  Implemented facial recognition that keeps instructors in focus, improving the hybrid learning
+                  experience.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title">Projects &amp; Research</h2>
+          <div class="grid">
+            <article class="card">
+              <figure class="card-media">
+                <img
+                  src="images/ChordFanta Logo.png"
+                  alt="ChordFanta brand logo"
+                />
+              </figure>
+              <div class="card-body">
+                <h3>ChordFanta</h3>
+                <p>
+                  Full-stack iOS app for guitar chord discovery with Trie-based
+                  search and interactive chord diagrams. Built end-to-end in
+                  React Native and launched on the App Store.
+                </p>
+                <ul class="card-list">
+                  <li>Designed product branding and multi-platform UI/UX.</li>
+                  <li>Implemented efficient chord storage and retrieval using tries.</li>
+                  <li>Integrated analytics to inform roadmap experiments.</li>
+                </ul>
+                <a
+                  class="link"
+                  href="https://apps.apple.com/us/app/chordfanta/id6752529400?uo=2"
+                  target="_blank"
+                  rel="noreferrer"
+                  >View on the App Store</a
+                >
+              </div>
+            </article>
+
+            <article class="card">
+              <figure class="card-media pdf">
+                <object
+                  data="images/VU ISIS Poster.pdf"
+                  type="application/pdf"
+                  aria-label="VU ISIS internship poster"
+                ></object>
+              </figure>
+              <div class="card-body">
+                <h3>FORMULA Research Platform (VU ISIS)</h3>
+                <p>
+                  Summarizes the DSL tooling and LLM-assisted debugging work I
+                  led during my Vanderbilt Institute for Software Integrated
+                  Systems internship.
+                </p>
+                <a class="link" href="images/VU ISIS Poster.pdf" target="_blank"
+                  >Open poster (PDF)</a
+                >
+              </div>
+            </article>
+
+            <article class="card">
+              <figure class="card-media pdf">
+                <object
+                  data="images/ULS Poster.pdf"
+                  type="application/pdf"
+                  aria-label="ULS poster"
+                ></object>
+              </figure>
+              <div class="card-body">
+                <h3>Universal Lesion Segmentation</h3>
+                <p>
+                  Led ML strategy for ULS23 challenge: developed CNN and
+                  transformer pipelines improving accuracy to 86.4% vs. 68%
+                  baseline. Poster captures methodology and evaluation.
+                </p>
+                <a class="link" href="images/ULS Poster.pdf" target="_blank"
+                  >Open poster (PDF)</a
+                >
+              </div>
+            </article>
+
+            <article class="card card-compact">
+              <div class="card-body">
+                <h3>Adaptive Cruise Control · Toyota RAV4</h3>
+                <p>
+                  Collaborated with a cross-functional team to engineer a radar
+                  and LiDAR-powered adaptive cruise control system that reduces
+                  congestion on Nashville highways.
+                </p>
+                <ul class="card-list">
+                  <li>Validated stability and safety in on-road tests across Nashville.</li>
+                  <li>Built perception and control software to fuse multi-sensor inputs.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card card-compact">
+              <div class="card-body">
+                <h3>Vandy Ice Hockey Carpool</h3>
+                <p>
+                  Project managed and engineered the web-based carpool platform
+                  adopted by the Vanderbilt Ice Hockey Club for season
+                  logistics.
+                </p>
+                <ul class="card-list">
+                  <li>Designed the frontend UI and built a seat-assignment algorithm.</li>
+                  <li>Deployed on Vercel with a MongoDB backend and continuous user feedback loops.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section" aria-labelledby="skills-title">
+        <div class="container">
+          <h2 id="skills-title">Skills</h2>
+          <ul class="pill-list">
+            <li>AI/ML</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>JavaScript / TypeScript</li>
+            <li>React</li>
+            <li>Data Science</li>
+            <li>Autonomous Systems</li>
+            <li>UI/UX Design</li>
+            <li>Product Strategy</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt" aria-labelledby="contact-title">
+        <div class="container contact">
+          <div>
+            <h2 id="contact-title">Contact</h2>
+            <p>
+              Ready to collaborate or want to chat? Reach out and I will get back
+              to you soon.
+            </p>
+            <a class="button" href="mailto:yifeili1226@gmail.com"
+              >yifeili1226@gmail.com</a
+            >
+            <a class="link" href="tel:+16155403877">(615) 540-3877</a>
+            <div class="contact-links">
+              <a
+                class="link"
+                href="https://github.com/Finn1226"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub</a
+              >
+              <a
+                class="link"
+                href="https://www.linkedin.com/in/yifei-li-51975121b"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+          <div class="contact-note">
+            <p>
+              Ask for my full résumé or tailored work samples—happy to share the
+              most relevant projects for your team.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Finn. All rights reserved.</p>
+        <a class="link" href="https://github.com/Finn1226/Portfolio"
+          >View source on GitHub</a
+        >
+      </div>
+    </footer>
+
+    <script>
+      const year = new Date().getFullYear();
+      const yearElement = document.getElementById("year");
+      if (yearElement) {
+        yearElement.textContent = year;
+      }
+    </script>
+  </body>
+</html>
